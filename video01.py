@@ -4,8 +4,8 @@ from pkg_resources import resource_stream
 from moviepy.editor import *
 from PIL import Image, ImageFont, ImageDraw
 
-savepath = r"D:\projects\Python\VideoToChars\badapple"
-videopath = r"D:\projects\Python\VideoToChars\badapple.mp4"
+# savepath = r"D:\projects\Python\VideoToChars\badapple"
+# videopath = r"D:\projects\Python\VideoToChars\badapple.mp4"
 pixels = "#$@&%ZYXWVUTSRQPONMLKJIHGFEDCBA0987654321zyxwvutsrqponmlkjihgfedcba?][}{/)(><*+-."
 
 def toChars(filename, chars_width, fps, pixels, output, t_start, t_end):
