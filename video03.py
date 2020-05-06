@@ -58,7 +58,7 @@ class VideotoChars:
         img = Image.fromarray(img_np, "RGB")    # 获取帧图像RGB数值
         img_gray = img.convert(mode="L")        # 将图片转为灰度图
 
-        img_chars = Image.new("RGB", self.video_size, color="black")  # 新建黑底画布
+        img_chars = Image.new("RGB", self.video_size, color="lightgray")  # 新建白画布
         brush = ImageDraw.Draw(img_chars)  # 画笔
 
         for y in range(self.chars_height):
