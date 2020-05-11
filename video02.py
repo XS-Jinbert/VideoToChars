@@ -36,7 +36,6 @@ class VideotoChars:
 
         # 重置视频大小
         self.video_clip: VideoClip = video_clip.resize((self.chars_width, self.chars_height))
-
         # 字体相关
         font_fp = resource_stream("video01", "字体.ttf")
         self.font = ImageFont.truetype(font_fp, size=14)  # 使用等宽字体
